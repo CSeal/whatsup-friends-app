@@ -5,6 +5,7 @@
  * @format
  */
 import React from 'react';
+import {ScaledSheet} from 'react-native-size-matters/extend';
 
 import {View, TextField, Text, Button} from 'react-native-ui-lib';
 
@@ -29,5 +30,9 @@ function App(): JSX.Element {
     </View>
   );
 }
-
+const style = ScaledSheet.create({
+  rootTest: {
+    width: '100@ms',
+  },
+});
 export default App;
