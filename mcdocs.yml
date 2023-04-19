@@ -1,0 +1,30 @@
+site_name: "Blank React Native Project"
+site_description: "React Native Project with the implementation of standard third-party libraries"
+site_author: "Anton Manuzin"
+theme: material
+pages:
+  - "Short Overview": "doc/index.md"
+extra:
+  - palette:
+      primary: 'light blue'
+      accent: 'light blue'
+markdown_extensions:
+  - toc:
+    permalink: true
+  - markdown.extensions.admonition
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
