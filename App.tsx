@@ -6,7 +6,7 @@ import AppCP from 'components/AppCP';
 function App(): JSX.Element {
   return (
     <View style={styles.root}>
-      <AppCP title="Welcome Anton" />
+      <AppCP title="What`s up Anton?" />
       <View style={styles.test} />
     </View>
   );

@@ -3,7 +3,6 @@
 echo "Clearing react-native cache is starting..."
 echo "Clearing watchman is starting..."
 watchman watch-del-all
-cd ..
 echo "Clearing watchman is finishing"
 echo "Clearing node_modules is starting..."
 rm -rf node_modules/
@@ -38,5 +37,5 @@ echo "Clearing iOS pods is finishing"
 echo "Done!"
 echo "Metro is starting..."
 cd ..
-adb reverse tcp:9090 tcp:9090
+#adb reverse tcp:9090 tcp:9090
 yarn start --reset-cache
