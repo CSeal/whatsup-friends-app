@@ -120,3 +120,9 @@ Reinstall only Android Part:
 ```sh
 yarn reinstall:android
 ```
+
+Generating mock data for chatList, messageList and current user simple profile:
+
+```sh
+yarn gen:chats
+```

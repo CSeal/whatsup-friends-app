@@ -1,24 +1,19 @@
 import React from 'react';
 import {ScaledSheet} from 'react-native-size-matters/extend';
 import {View} from 'react-native';
-import AppCP from 'components/AppCP';
+import ChatListItem from 'components/ChatListItem';
 
 function App(): JSX.Element {
   return (
     <View style={styles.root}>
-      <AppCP title="What`s up Anton?" />
-      <View style={styles.test} />
+      <ChatListItem />
     </View>
   );
 }
 const styles = ScaledSheet.create({
   root: {
     flex: 1,
-  },
-  test: {
-    width: '100@ms',
-    height: '30@ms',
-    backgroundColor: 'green',
+    justifyContent: 'center',
   },
 });
 export default App;

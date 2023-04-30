@@ -20,7 +20,8 @@
     "android:build": "scripts/createAndroidBuild.sh",
     "reinstall:project": "scripts/reInstallProject.sh",
     "reinstall:ios": "scripts/reInstallIOSPart.sh",
-    "reinstall:android": "scripts/reInstallAndroidPart.sh"
+    "reinstall:android": "scripts/reInstallAndroidPart.sh",
+    "gen:chats": "ts-node scripts/chatsGenerator.ts"
   },
   "dependencies": {
     "@react-native-community/blur": "^4.3.0",
