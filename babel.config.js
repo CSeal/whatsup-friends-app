@@ -26,6 +26,7 @@ module.exports = {
           '@themes': './src/themes/',
           '@utils': './src/utils/',
           '@navigations': './src/navigations/',
+          '@assets': './src/../assets/',
         },
       },
     ],
@@ -40,8 +41,6 @@ module.exports = {
         allowUndefined: true,
       },
     ],
-    '@babel/plugin-proposal-private-methods',
-    '@babel/plugin-proposal-class-properties',
     [
       'react-native-reanimated/plugin',
       {
