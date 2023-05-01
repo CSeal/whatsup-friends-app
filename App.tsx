@@ -1,12 +1,11 @@
 import React from 'react';
 import {ScaledSheet} from 'react-native-size-matters/extend';
 import {View} from 'react-native';
-import ChatListItem from 'components/ChatListItem';
-
+import ChatsScreen from 'screens/ChatsScreen';
 function App(): JSX.Element {
   return (
     <View style={styles.root}>
-      <ChatListItem />
+      <ChatsScreen />
     </View>
   );
 }
