@@ -18,7 +18,7 @@ const Message = ({message}: MessageProps): JSX.Element => {
       style={[
         styles.container,
         {
-          backgroundColor: isMyMessage() ? Colors.green60 : Colors.green50,
+          backgroundColor: isMyMessage() ? Colors.blue70 : Colors.white,
           alignSelf: isMyMessage() ? 'flex-end' : 'flex-start',
         },
       ]}>
